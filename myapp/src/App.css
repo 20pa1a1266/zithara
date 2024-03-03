@@ -1,0 +1,161 @@
+/* Styles for the container */
+.whole-container{
+  margin: 70px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the search input */
+input[type="text"] {
+  padding: 8px;
+  width: 200px; /* Adjusted width for search input */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for the select dropdown */
+select {
+  padding: 8px;
+  width: 200px; /* Adjusted width for select dropdown */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Style for table rows on hover */
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style for odd rows */
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Style for table header cells */
+th {
+  border: 1px solid #ddd;
+}
+
+/* Style for table body cells */
+td {
+  border: 1px solid #ddd;
+}
+
+/* Style for table header and body cells */
+th, td {
+  padding: 12px;
+}
+
+/* Style for table footer */
+tfoot {
+  background-color: #f2f2f2;
+}
+
+/* Style for table footer cells */
+tfoot td {
+  border-top: 1px solid #ddd;
+  padding: 12px;
+}
+
+/* Style for table footer cells with alignment */
+tfoot td:first-child {
+  text-align: right;
+}
+
+/* Style for table footer cells with alignment */
+tfoot td:last-child {
+  text-align: left;
+}
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination button:disabled {
+  background-color: #ddd;
+  color: #999;
+  cursor: not-allowed;
+}
+
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.searchContainer input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.searchContainer button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.searchContainer button:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* Style for the button on hover */
+.searchContainer button:hover {
+  background-color: #0056b3;
+}
